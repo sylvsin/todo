@@ -1,0 +1,69 @@
+body {
+  background-color: #9266ff;
+}
+
+.App {
+  background-color: #3f3160;
+  min-height: 500px;
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.App h2 {
+  padding: 0 30px;
+  color: #fff;
+}
+
+#to-do-form {
+  background-color: rgb(27, 112, 137);
+  border: 0;
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 2px;
+  color: #fff;
+  margin-left: 2em;
+}
+
+#to-do-form::placeholder{
+  color: #fff;
+  padding-left: 2px;
+}
+
+#to-do-form:focus, button:focus {
+  outline: none;
+}
+
+#to-do-button {
+  height: 50px;
+  width: 80px;
+  border-radius: 2px;
+  border: 0;
+  background-color: gray;
+  cursor: pointer;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.todolist {
+  font-family: cursive;
+  color: #fff;
+  margin-left: 2em;
+}
+
+p {
+  background-color: gray;
+  position: relative;
+  border-radius: 2px;
+}
+
+p span {
+  right: 5px;
+  position: absolute; 
+  cursor: pointer; 
+}
+
+/* .newtodo {
+  font-family: fantasy;
+} */
