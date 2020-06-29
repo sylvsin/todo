@@ -37,11 +37,12 @@ class DayTime extends React.Component<{}, DayTimeState> {
 
         const styles = {
             backgroundColor: "rgb(27, 112, 137)",
+            paddingTop: "15px"
         }
 
         return(
             <div className="daytime">
-                <h5><span style={styles}> {`Att göra idag ${n} ${this.state.time}`} </span> </h5>
+                <h5><span style={styles}> {`Att göra idag ${n} ${this.state.time}`} </span></h5>
             </div>
         )
     }
