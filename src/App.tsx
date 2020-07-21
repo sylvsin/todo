@@ -14,7 +14,7 @@ interface IAppState {
 
 
 class App extends React.Component<{}, IAppState> {
-  private todoList: ITodo[] = [{ todo:'Programmera', isDone:false}, { todo:'Gymmet', isDone:true}]
+  private todoList: ITodo[] = [{ todo:'Programmera', isDone:false}, { todo:'Gymmet', isDone:true}, {todo:'To do app', isDone:true}]
 
   constructor(props: any) {
     super(props)
