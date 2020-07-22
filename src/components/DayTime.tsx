@@ -25,13 +25,13 @@ class DayTime extends React.Component<{}, DayTimeState> {
 
         const d = new Date();
         const weekday = new Array(7);
-        weekday[0] = "Måndag";
-        weekday[1] = "Tisdag";
-        weekday[2] = "Onsdag";
-        weekday[3] = "Torsdag";
-        weekday[4] = "Fredag";
-        weekday[5] = "Lördag";
-        weekday[6] = "Söndag";
+        weekday[1] = "Måndag";
+        weekday[2] = "Tisdag";
+        weekday[3] = "Onsdag";
+        weekday[4] = "Torsdag";
+        weekday[5] = "Fredag";
+        weekday[6] = "Lördag";
+        weekday[7] = "Söndag";
 
         const n = weekday[d.getDay()];
 
